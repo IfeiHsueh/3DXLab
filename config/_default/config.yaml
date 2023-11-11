@@ -1,0 +1,12 @@
+params:
+  publication_types: 
+    "0": Unpublished
+    "1": Conference paper
+    "2": Journal article
+    "3": Preprint
+    "4": Report
+    "5": Book chapter
+    "6": Book
+    "7": PhD thesis
+    "8": Master's thesis
+    "9": Course project
