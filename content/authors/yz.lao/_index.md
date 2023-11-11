@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Yizhen LAO
+title: Yizhen Lao
 
 # Full Name (for SEO)
 first_name: yizhen
