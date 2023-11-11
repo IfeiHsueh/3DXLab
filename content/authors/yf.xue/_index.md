@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Yifei XUE
+title: Yifei Xue
 
 # Full Name (for SEO)
 first_name: yifei
