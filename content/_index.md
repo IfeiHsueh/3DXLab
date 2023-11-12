@@ -14,7 +14,7 @@ sections:
         filename: welcome.jpg
       text: |
         <br>
-        <img src="icon.png" alt="some_text"> 
+        <img src="../assets/media/icon.png" alt="some_text"> 
         3D Vision/graphic/Visualization/Experience/Design
   
   - block: collection
