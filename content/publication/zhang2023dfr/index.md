@@ -25,8 +25,8 @@ publishDate: '2023-10-10T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: 'IEEE Transactions on Pattern Analysis and Machine Intelligence ( Volume: 45, Issue: 10, October 2023) '
-publication_short: 'T-PAMI'
+publication: 'IEEE International Conference on Multimedia and Expo'
+publication_short: 'ICME'
 
 abstract: This paper addresses the problem of rolling shutter correction (RSC) in uncalibrated videos. Existing works remove rolling shutter (RS) distortion by explicitly computing the camera motion and depth as intermediate products, followed by motion compensation. In contrast, we first show that each distorted pixel can be implicitly rectified back to the corresponding global shutter (GS) projection by rescaling its optical flow. Such a point-wise RSC is feasible with both perspective and non-perspective cases without the pre-knowledge of the camera used. Besides, it allows a pixel-wise varying direct RS correction (DRSC) framework that handles locally varying distortion caused by various sources, such as camera motion, moving objects, and even highly varying depth scenes. More importantly, our approach is an efficient CPU-based solution that enables undistorting RS videos in real-time (40fps for 480p). We evaluate our approach across a broad range of cameras and video sequences, including fast motion, dynamic scenes, and non-perspective lenses, demonstrating the superiority of our proposed approach over state-of-the-art methods in both effectiveness and efficiency. We also evaluated the ability of the RSC results to serve for downstream 3D analysis, such as visual odometry and structure-from-motion, which verifies preference for the output of our algorithm over other existing RSC methods.
 

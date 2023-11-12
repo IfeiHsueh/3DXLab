@@ -1,17 +1,19 @@
 ---
-title: 'Towards Nonlinear-Motion-Aware and Occlusion-Robust Rolling Shutter Correction'
+title: 'DFR: Depth from Rotation by Uncalibrated Image Rectification with Latitudinal Motion Assumption'
 authors:
-  - dl.qu
+  - Jin Chen
+  - Yi Yu
+  - Shien Song
+  - Xinying Wang
+  - Jie Yang
+  - yf.xue
   - yz.lao
-  - Zhigang Wang
-  - Dong Wang
-  - Bin Zhao
-  - Xuelong Li
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+  - 
+  - 
   -
   -
+  - 
   - 
   - 'Corresponding'
 date: '2023-06-12T00:00:00Z'
@@ -27,10 +29,17 @@ publishDate: '2023-10-10T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: 'Proceedings of the IEEE/CVF International Conference on Computer Vision'
-publication_short: 'ICCV'
+publication: 'Proceedings of the 31st ACM International Conference on Multimedia'
+publication_short: 'ACM MM'
 
-abstract: This paper addresses the problem of rolling shutter correction in complex nonlinear and dynamic scenes with extreme occlusion. Existing methods suffer from two main drawbacks. Firstly, they face challenges in estimating the accurate correction field due to the uniform velocity assumption, leading to significant image correction errors under complex motion. Secondly, the drastic occlusion in dynamic scenes prevents current solutions from achieving better image quality because of the inherent difficulties in aligning and aggregating multiple frames. To tackle these challenges, we model the curvilinear trajectory of pixels analytically and propose a geometry-based Quadratic Rolling Shutter (QRS) motion solver, which precisely estimates the high-order correction field of individual pixels. Besides, to reconstruct high-quality occlusion frames in dynamic scenes, we present a 3D video architecture that effectively Aligns and Aggregates multi-frame context, namely, RSA2-Net. We evaluate our method across a broad range of cameras and video sequences, demonstrating its significant superiority. Specifically, our method surpasses the state-of-the-art by +4.98, +0.77, and +4.33 of PSNR on Carla-RS, Fastec-RS, and BS-RSC datasets, respectively. Code is available at [https://github.com/DelinQu/qrsc](https://github.com/DelinQu/qrsc/).
+abstract: 
+
+MGTV recently organized a pioneering Invisible Video Watermark Challenge, inviting participants to create a framework capable of embedding invisible watermarks into videos and extracting them from watermarked content.
+
+The invisible watermark serves as a discrete digital signature within the media data, imperceptible to the human eye. This technique safeguards the ownership and authenticity of multimedia content. While convolutional neural networks have demonstrated remarkable efficacy in image and video processing, the discourse on invisible watermarking remains limited. This challenge, therefore, presents an opportune moment to advance the field of invisible watermarking.
+
+Furthermore, to support this endeavor, we curated the comprehensive MGTV_WM dataset, encompassing diverse video types. For further details, please refer to our official website [https://challenge.ai.mgtv.com/\#/track/18?locale=en](https://challenge.ai.mgtv.com/\#/track/18?locale=en).
+
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
