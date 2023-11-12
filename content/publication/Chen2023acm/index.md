@@ -32,13 +32,7 @@ publication_types: ['paper-conference']
 publication: 'Proceedings of the 31st ACM International Conference on Multimedia'
 publication_short: 'ACM MM'
 
-abstract: 
-
-MGTV recently organized a pioneering Invisible Video Watermark Challenge, inviting participants to create a framework capable of embedding invisible watermarks into videos and extracting them from watermarked content.
-
-The invisible watermark serves as a discrete digital signature within the media data, imperceptible to the human eye. This technique safeguards the ownership and authenticity of multimedia content. While convolutional neural networks have demonstrated remarkable efficacy in image and video processing, the discourse on invisible watermarking remains limited. This challenge, therefore, presents an opportune moment to advance the field of invisible watermarking.
-
-Furthermore, to support this endeavor, we curated the comprehensive MGTV_WM dataset, encompassing diverse video types. For further details, please refer to our official website (https://challenge.ai.mgtv.com/\#/track/18?locale=en).
+abstract: MGTV recently organized a pioneering Invisible Video Watermark Challenge, inviting participants to create a framework capable of embedding invisible watermarks into videos and extracting them from watermarked content. The invisible watermark serves as a discrete digital signature within the media data, imperceptible to the human eye. This technique safeguards the ownership and authenticity of multimedia content. While convolutional neural networks have demonstrated remarkable efficacy in image and video processing, the discourse on invisible watermarking remains limited. This challenge, therefore, presents an opportune moment to advance the field of invisible watermarking. Furthermore, to support this endeavor, we curated the comprehensive MGTV_WM dataset, encompassing diverse video types. For further details, please refer to our official website (https://challenge.ai.mgtv.com/\#/track/18?locale=en).
 
 
 # Summary. An optional shortened abstract.
