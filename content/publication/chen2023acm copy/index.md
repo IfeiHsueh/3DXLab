@@ -1,18 +1,16 @@
 ---
-title: 'ACM Multimedia 2023 Grand Challenge Report: Invisible Video Watermark'
+title: 'Augmenting TV Shows via Uncalibrated Camera Small Motion Tracking in Dynamic Scene'
 authors:
-  - Jin Chen
-  - Yi Yu
-  - Shien Song
-  - Xinying Wang
-  - Jie Yang
-  - yf.xue
   - yz.lao
+  - Jie Yang
+  - Xinying Wang
+  - Jianxin Lin
+  - y.cao
+  - Shien Song
 author_notes:
+  - 'Equal contribution'
+  - 'Equal contribution'
   - 
-  - 
-  -
-  -
   - 
   - 
   - 'Corresponding'
@@ -29,10 +27,10 @@ publishDate: '2023-10-10T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: 'Proceedings of the 31st ACM International Conference on Multimedia'
+publication: 'Proceedings of the 29th ACM International Conference on Multimedia'
 publication_short: 'ACM Multimedia'
 
-abstract: MGTV recently organized a pioneering Invisible Video Watermark Challenge, inviting participants to create a framework capable of embedding invisible watermarks into videos and extracting them from watermarked content. The invisible watermark serves as a discrete digital signature within the media data, imperceptible to the human eye. This technique safeguards the ownership and authenticity of multimedia content. While convolutional neural networks have demonstrated remarkable efficacy in image and video processing, the discourse on invisible watermarking remains limited. This challenge, therefore, presents an opportune moment to advance the field of invisible watermarking. Furthermore, to support this endeavor, we curated the comprehensive MGTV_WM dataset, encompassing diverse video types. For further details, please refer to our official website [https://challenge.ai.mgtv.com/\#/track/18?locale=en](https://challenge.ai.mgtv.com/\#/track/18?locale=en).
+abstract: To augment the TV show in post-production, we propose a novel solution to uncalibrated camera small motion tracking in a dynamic scene that simultaneously reconstructs the sparse 3D scene and computes camera poses and focal lengths of each frame. The critical elements of our approach are a robust image feature tracking strategy in dynamic scenes followed by automatic local-window frames slicing, local and global bundle adjustment optimization initialized by a homography-based uncalibrated relative rotation solver. The proposed method allows us to add the virtual objects (elements) into the reconstructed 3D scene, then composite them back into the original shot while perfectly matched perspective and appear seamless. The evaluation of a large variety of real TV show sequences demonstrates the merits of our method against state-of-the-art works and commercial software products.
 
 
 # Summary. An optional shortened abstract.
