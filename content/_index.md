@@ -14,9 +14,10 @@ sections:
         filename: welcome.jpg
       text: |
         <br>
-        <p id='path'></p>
+        <p id='url'></p>
+
         <script>
-          document.getElementById('path').innerHTML = window.location.pathname;
+            document.getElementById('url').innerHTML = window.location.href;
         </script>
         <img style="display: inline-block; width: 100%; max-width: 10%; height: auto;" src="chat.jpg" alt="some_text"> 
         3D Vision/graphic/Visualization/Experience/Design
