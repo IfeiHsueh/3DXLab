@@ -1,5 +1,5 @@
 ---
-title: 'DFR: Depth from Rotation by Uncalibrated Image Rectification with Latitudinal Motion Assumption'
+title: 'ACM Multimedia 2023 Grand Challenge Report: Invisible Video Watermark'
 authors:
   - Jin Chen
   - Yi Yu
