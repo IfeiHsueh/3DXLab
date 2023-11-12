@@ -1,18 +1,16 @@
 ---
-title: 'Solving rolling shutter 3d vision problems using analogies with non-rigidity'
+title: 'Rolling shutter homography and its applications'
 authors:
   - yz.lao
   - Omar Ait-Aider
-  - Adrien Bartoli
 author_notes:
   - 'Corresponding'
   - 
-  - 
-date: '2020-08-17T00:00:00Z'
+date: '2020-03-02T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2020-08-17T00:00:00Z'
+publishDate: '2020-03-02T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -21,10 +19,10 @@ publishDate: '2020-08-17T00:00:00Z'
 publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: 'International Journal of Computer Vision'
-publication_short: 'IJCV'
+publication: 'IEEE transactions on pattern analysis and machine intelligence'
+publication_short: 'T-PAMI'
 
-abstract: We propose an original approach to absolute pose and structure-from-motion (SfM) which handles rolling shutter (RS) effects. Unlike most existing methods which either augment global shutter projection with velocity parameters or impose continuous time and motion through pose interpolation, we use local differential constraints. These are established by drawing analogies with non-rigid 3D vision techniques, namely shape-from-template and non-rigid SfM (NRSfM). The proposed idea is to interpret the images of a rigid surface acquired by a moving RS camera as those of a virtually deformed surface taken by a GS camera. These virtually deformed surfaces are first recovered by relaxing the RS constraint using SfT or NRSfM. Then we upgrade the virtually deformed surface to the actual rigid structure and compute the camera pose and ego-motion by reintroducing the RS constraint. This uses a new 3D-3D registration procedure that minimizes a cost function based on the Euclidean 3D point distance. This is more stable and physically meaningful than the reprojection error or the algebraic distance used in previous work. Experimental results obtained with synthetic and real data show that the proposed methods outperform existing ones in terms of accuracy and stability, even in the known critical configurations.
+abstract: In this article we study the adaptation of the concept of homography to Rolling Shutter (RS) images. This extension has never been clearly adressed despite the many roles played by the homography matrix in multi-view geometry. We first show that a direct point-to-point relationship on a RS pair can be expressed as a set of 3 to 8 atomic 3x3 matrices depending on the kinematic model used for the instantaneous-motion during image acquisition. We call this group of matrices the RS Homography. We then propose linear solvers for the computation of these matrices using point correspondences. Finally, we derive linear and closed form solutions for two famous problems in computer vision in the case of RS images: image stitching and plane-based relative pose computation. Extensive experiments with both synthetic and real data from public benchmarks show that the proposed methods outperform state-of-art techniques.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
