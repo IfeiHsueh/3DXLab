@@ -12,7 +12,7 @@ date: '2023-06-12T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2023-10-10T00:00:00Z'
+publishDate: '2020-08-17T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -24,7 +24,7 @@ publication_types: ['article-journal']
 publication: 'International Journal of Computer Vision) '
 publication_short: 'IJCV'
 
-abstract: This paper addresses the problem of rolling shutter correction (RSC) in uncalibrated videos. Existing works remove rolling shutter (RS) distortion by explicitly computing the camera motion and depth as intermediate products, followed by motion compensation. In contrast, we first show that each distorted pixel can be implicitly rectified back to the corresponding global shutter (GS) projection by rescaling its optical flow. Such a point-wise RSC is feasible with both perspective and non-perspective cases without the pre-knowledge of the camera used. Besides, it allows a pixel-wise varying direct RS correction (DRSC) framework that handles locally varying distortion caused by various sources, such as camera motion, moving objects, and even highly varying depth scenes. More importantly, our approach is an efficient CPU-based solution that enables undistorting RS videos in real-time (40fps for 480p). We evaluate our approach across a broad range of cameras and video sequences, including fast motion, dynamic scenes, and non-perspective lenses, demonstrating the superiority of our proposed approach over state-of-the-art methods in both effectiveness and efficiency. We also evaluated the ability of the RSC results to serve for downstream 3D analysis, such as visual odometry and structure-from-motion, which verifies preference for the output of our algorithm over other existing RSC methods.
+abstract: We propose an original approach to absolute pose and structure-from-motion (SfM) which handles rolling shutter (RS) effects. Unlike most existing methods which either augment global shutter projection with velocity parameters or impose continuous time and motion through pose interpolation, we use local differential constraints. These are established by drawing analogies with non-rigid 3D vision techniques, namely shape-from-template and non-rigid SfM (NRSfM). The proposed idea is to interpret the images of a rigid surface acquired by a moving RS camera as those of a virtually deformed surface taken by a GS camera. These virtually deformed surfaces are first recovered by relaxing the RS constraint using SfT or NRSfM. Then we upgrade the virtually deformed surface to the actual rigid structure and compute the camera pose and ego-motion by reintroducing the RS constraint. This uses a new 3D-3D registration procedure that minimizes a cost function based on the Euclidean 3D point distance. This is more stable and physically meaningful than the reprojection error or the algebraic distance used in previous work. Experimental results obtained with synthetic and real data show that the proposed methods outperform existing ones in terms of accuracy and stability, even in the known critical configurations.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
