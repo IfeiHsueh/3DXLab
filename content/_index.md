@@ -15,7 +15,7 @@ sections:
       text: |
         <br>
         
-        <img style="display: inline-block; width: 100%; max-width: 10%; height: auto;" src="/media/icon.png" alt="some_text">
+        <img style="display: inline-block; width: 100%; max-width: 10%; height: auto;" src="/media/icon.jpg" alt="some_text">
 
         3D Vision/graphic/Visualization/Experience/Design
   
