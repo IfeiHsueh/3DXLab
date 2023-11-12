@@ -1,16 +1,18 @@
 ---
-title: 'DFR: Depth from Rotation by Uncalibrated Image Rectification with Latitudinal Motion Assumption'
+title: 'Towards Nonlinear-Motion-Aware and Occlusion-Robust Rolling Shutter Correction'
 authors:
-  - yc.zhang
-  - yf.xue
-  - Ming Liao
-  - hq.zhang
+  - dl.qu
   - yz.lao
+  - Zhigang Wang
+  - Dong Wang
+  - Bin Zhao
+  - Xuelong Li
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
   -
   -
+  - 
   - 'Corresponding'
 date: '2023-06-12T00:00:00Z'
 doi: ''
@@ -28,7 +30,7 @@ publication_types: ['article-journal ']
 publication: 'IEEE Transactions on Pattern Analysis and Machine Intelligence ( Volume: 45, Issue: 10, October 2023) '
 publication_short: 'T-PAMI'
 
-abstract: This paper addresses the problem of rolling shutter correction (RSC) in uncalibrated videos. Existing works remove rolling shutter (RS) distortion by explicitly computing the camera motion and depth as intermediate products, followed by motion compensation. In contrast, we first show that each distorted pixel can be implicitly rectified back to the corresponding global shutter (GS) projection by rescaling its optical flow. Such a point-wise RSC is feasible with both perspective and non-perspective cases without the pre-knowledge of the camera used. Besides, it allows a pixel-wise varying direct RS correction (DRSC) framework that handles locally varying distortion caused by various sources, such as camera motion, moving objects, and even highly varying depth scenes. More importantly, our approach is an efficient CPU-based solution that enables undistorting RS videos in real-time (40fps for 480p). We evaluate our approach across a broad range of cameras and video sequences, including fast motion, dynamic scenes, and non-perspective lenses, demonstrating the superiority of our proposed approach over state-of-the-art methods in both effectiveness and efficiency. We also evaluated the ability of the RSC results to serve for downstream 3D analysis, such as visual odometry and structure-from-motion, which verifies preference for the output of our algorithm over other existing RSC methods.
+abstract: This paper addresses the problem of rolling shutter correction in complex nonlinear and dynamic scenes with extreme occlusion. Existing methods suffer from two main drawbacks. Firstly, they face challenges in estimating the accurate correction field due to the uniform velocity assumption, leading to significant image correction errors under complex motion. Secondly, the drastic occlusion in dynamic scenes prevents current solutions from achieving better image quality because of the inherent difficulties in aligning and aggregating multiple frames. To tackle these challenges, we model the curvilinear trajectory of pixels analytically and propose a geometry-based Quadratic Rolling Shutter (QRS) motion solver, which precisely estimates the high-order correction field of individual pixels. Besides, to reconstruct high-quality occlusion frames in dynamic scenes, we present a 3D video architecture that effectively Aligns and Aggregates multi-frame context, namely, RSA2-Net. We evaluate our method across a broad range of cameras and video sequences, demonstrating its significant superiority. Specifically, our method surpasses the state-of-the-art by +4.98, +0.77, and +4.33 of PSNR on Carla-RS, Fastec-RS, and BS-RSC datasets, respectively. Code is available at [https://github.com/DelinQu/qrsc](https://github.com/DelinQu/qrsc/).
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
