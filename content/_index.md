@@ -18,6 +18,8 @@ sections:
         <img style="display: inline-block; width: 100%; max-width: 100%; height: auto;" src="/imgs/icon.png" alt="some_text">
 
         3D Vision/graphic/Visualization/Experience/Design
+
+        Recruiting!
   
   - block: collection
     content:
