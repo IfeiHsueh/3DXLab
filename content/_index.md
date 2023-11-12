@@ -14,11 +14,22 @@ sections:
         filename: welcome.jpg
       text: |
         <br>
-        <p id='url'></p>
+        <?php
+          // Directory path
+          $dir = '.';
 
-        <script>
-            document.getElementById('url').innerHTML = window.location.href;
-        </script>
+          // Open a directory, and read its contents
+          if (is_dir($dir)){
+            if ($dh = opendir($dir)){
+              while (($file = readdir($dh)) !== false){
+                if(is_dir($file)){
+                  echo "filename:" . $file . "<br>";
+                }
+              }
+              closedir($dh);
+            }
+          }
+        ?>
         <img style="display: inline-block; width: 100%; max-width: 10%; height: auto;" src="chat.jpg" alt="some_text"> 
         3D Vision/graphic/Visualization/Experience/Design
   
